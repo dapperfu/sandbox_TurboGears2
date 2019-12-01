@@ -9,6 +9,9 @@ class RootController(TGController):
     @expose(content_type="text/plain")
     def index(self):
         return "Hello World"
+    @expose(content_type="text/plain")
+    def index2(self):
+        return "Hello World 2"
 
 
 # Configure a new minimal application with our root controller.
